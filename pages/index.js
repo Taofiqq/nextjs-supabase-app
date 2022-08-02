@@ -9,14 +9,12 @@ export default function Home({ session }) {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
 
-  // console.log(session);
   useEffect(() => {
     fetchWorkouts();
   }, []);
 
   const fetchWorkouts = async () => {
     const user = supabase.auth.user();
-    console.log("user", user);
     try {
       setLoading(true);
       const { data, error } = await supabase
@@ -36,7 +34,7 @@ export default function Home({ session }) {
   if (loading) {
     return <div className={styles.loading}>Fetching Workouts...</div>;
   }
-  console.log(data);
+
   const handleDelete = async (id) => {
     try {
       const user = supabase.auth.user();
@@ -46,7 +44,6 @@ export default function Home({ session }) {
         .eq("id", id)
         .eq("user_id", user?.id);
       fetchWorkouts();
-      console.log(data);
       if (error) throw error;
       alert("Workout deleted successfully");
     } catch (error) {

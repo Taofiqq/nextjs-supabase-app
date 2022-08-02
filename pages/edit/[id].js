@@ -21,7 +21,6 @@ const Edit = () => {
     };
     getWorkout();
   }, [id]);
-  // console.log(workout);
 
   const handleOnChange = (e) => {
     setWorkout({

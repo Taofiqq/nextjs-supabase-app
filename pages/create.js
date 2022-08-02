@@ -31,7 +31,6 @@ const Create = () => {
         user_id: user?.id,
       })
       .single();
-    console.log(data);
     alert("Workout created successfully");
     setWorkoutData(initialState);
     router.push("/");
