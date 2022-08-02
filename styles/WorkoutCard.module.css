@@ -1,0 +1,59 @@
+.container {
+  width: 25rem;
+  height: 12rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #f35815;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.workoutContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 2rem;
+}
+.title {
+  font-size: 0.9rem;
+}
+.load {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.reps {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.time {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+.buttons {
+  position: absolute;
+  display: flex;
+  bottom: 0.1rem;
+  right: 1rem;
+}
+.delete {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f35815;
+  font-size: 1rem;
+}
+
+.edit {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f35815;
+  font-size: 1rem;
+  margin-right: 1rem;
+}

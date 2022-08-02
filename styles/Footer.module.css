@@ -1,0 +1,23 @@
+.container {
+  border-top: 1px solid #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #d8d8d8;
+  padding-bottom: 1.5rem;
+}
+.text {
+  margin-top: 2rem;
+}
+
+.repo {
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.stack {
+  color: #f35815;
+  cursor: pointer;
+}

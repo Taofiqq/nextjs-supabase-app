@@ -1,0 +1,53 @@
+.container {
+  color: #d8d8d8;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  border: 1px solid #f35815;
+  background-color: transparent;
+  color: #d8d8d8;
+  padding: 0.5rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 1.5rem;
+}
+
+.workoutHeading {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.email {
+  color: #f35815;
+}
+
+.noWorkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.loading {
+  color: #f35815;
+  margin-top: 1rem;
+}
+
+.loading {
+  text-align: center;
+  color: #d8d8d8;
+  height: 100vh;
+}
