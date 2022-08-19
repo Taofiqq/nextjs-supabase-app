@@ -14,7 +14,7 @@ const Footer = () => {
           <span className={styles.stack}>Supabase</span>
         </Link>
       </h1>
-      <Link href="">
+      <Link href="https://github.com/Taofiqq/nextjs-supabase-app">
         <p className={styles.repo}>Github Repo</p>
       </Link>
     </div>
